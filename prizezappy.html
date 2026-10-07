@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prizezappy | Chance to Win $50,000</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f5f7fb;
+  color:#172033;
+  line-height:1.6;
+}
+
+.container{
+  width:92%;
+  max-width:1100px;
+  margin:auto;
+}
+
+/* HEADER */
+header{
+  background:#fff;
+  padding:18px 0;
+  border-bottom:1px solid #e9edf5;
+}
+
+.logo{
+  font-size:25px;
+  font-weight:800;
+  color:#111827;
+}
+
+.logo span{
+  color:#6c3cff;
+}
+
+/* HERO */
+.hero{
+  padding:70px 0;
+  background:linear-gradient(135deg,#f5f0ff,#ffffff,#eef7ff);
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:45px;
+  align-items:center;
+}
+
+.badge{
+  display:inline-block;
+  padding:8px 15px;
+  border-radius:30px;
+  background:#eee8ff;
+  color:#5b32d6;
+  font-size:14px;
+  font-weight:700;
+  margin-bottom:18px;
+}
+
+h1{
+  font-size:52px;
+  line-height:1.08;
+  margin-bottom:20px;
+  color:#111827;
+}
+
+h1 span{
+  color:#6c3cff;
+}
+
+.hero p{
+  font-size:18px;
+  color:#5b6475;
+  margin-bottom:28px;
+}
+
+.cta{
+  display:inline-block;
+  text-decoration:none;
+  background:#6c3cff;
+  color:#fff;
+  padding:17px 32px;
+  border-radius:12px;
+  font-size:17px;
+  font-weight:800;
+  box-shadow:0 10px 25px rgba(108,60,255,.25);
+  transition:.25s;
+}
+
+.cta:hover{
+  transform:translateY(-2px);
+  background:#5628db;
+}
+
+.note{
+  margin-top:14px;
+  font-size:12px;
+  color:#777;
+}
+
+/* PRIZE CARD */
+.prize-card{
+  background:#fff;
+  border-radius:28px;
+  padding:35px;
+  text-align:center;
+  box-shadow:0 20px 60px rgba(25,35,60,.12);
+  border:1px solid #edf0f7;
+}
+
+.prize-icon{
+  font-size:75px;
+  margin-bottom:10px;
+}
+
+.prize-card h2{
+  font-size:24px;
+  margin-bottom:5px;
+}
+
+.amount{
+  font-size:58px;
+  font-weight:900;
+  color:#6c3cff;
+  margin:5px 0 15px;
+}
+
+.prize-card p{
+  color:#697386;
+}
+
+/* FEATURES */
+.features{
+  padding:65px 0;
+  background:#fff;
+}
+
+.section-title{
+  text-align:center;
+  font-size:34px;
+  margin-bottom:40px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.card{
+  padding:28px;
+  background:#f8f9fc;
+  border-radius:18px;
+  text-align:center;
+  border:1px solid #edf0f5;
+}
+
+.card-icon{
+  font-size:35px;
+  margin-bottom:12px;
+}
+
+.card h3{
+  margin-bottom:8px;
+}
+
+.card p{
+  color:#687386;
+  font-size:15px;
+}
+
+/* CTA SECTION */
+.final-cta{
+  padding:70px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#151029,#32205f);
+  color:#fff;
+}
+
+.final-cta h2{
+  font-size:38px;
+  margin-bottom:12px;
+}
+
+.final-cta p{
+  max-width:650px;
+  margin:0 auto 28px;
+  color:#d8d2e8;
+}
+
+/* FAQ */
+.faq{
+  padding:65px 0;
+  background:#f8f9fc;
+}
+
+.faq-box{
+  max-width:800px;
+  margin:auto;
+}
+
+details{
+  background:#fff;
+  padding:20px 22px;
+  margin-bottom:12px;
+  border-radius:12px;
+  border:1px solid #e8ebf2;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:700;
+}
+
+/* FOOTER */
+footer{
+  padding:28px 15px;
+  text-align:center;
+  background:#10131b;
+  color:#9ca3af;
+  font-size:12px;
+}
+
+footer a{
+  color:#c4b5fd;
+  text-decoration:none;
+}
+
+/* MOBILE */
+@media(max-width:800px){
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  h1{
+    font-size:40px;
+  }
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+
+  .amount{
+    font-size:48px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">Prize<span>zappy</span></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div>
+      <div class="badge">🎁 Prize Opportunity</div>
+
+      <h1>
+        Your Chance to Win
+        <span>$50,000</span>
+      </h1>
+
+      <p>
+        Discover the Prizezappy opportunity and see whether
+        you're eligible to participate.
+      </p>
+
+      <a
+        class="cta"
+        href="https://app.trcefy.com/click?pid=2&offer_id=24647&sub2=u809050&sub5=s1SUBID1HERE"
+        target="_blank"
+        rel="noopener noreferrer">
+        Check Your Eligibility →
+      </a>
+
+      <div class="note">
+        Participation and eligibility are subject to the offer's official terms.
+      </div>
+    </div>
+
+    <div class="prize-card">
+      <div class="prize-icon">🏆</div>
+      <h2>Featured Prize</h2>
+      <div class="amount">$50,000</div>
+      <p>
+        Explore the offer to learn about eligibility,
+        participation requirements and official details.
+      </p>
+
+      <br>
+
+      <a
+        class="cta"
+        href="https://app.trcefy.com/click?pid=2&offer_id=24647&sub2=u809050&sub5=s1SUBID1HERE"
+        target="_blank"
+        rel="noopener noreferrer">
+        Explore Offer
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+
+    <h2 class="section-title">Why Check It Out?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Simple Start</h3>
+        <p>
+          Begin by checking the available offer and
+          reviewing the participation requirements.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔎</div>
+        <h3>Review Details</h3>
+        <p>
+          Review the eligibility information and
+          official terms before participating.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🎁</div>
+        <h3>Prize Opportunity</h3>
+        <p>
+          Explore the opportunity associated with
+          the featured $50,000 prize.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+
+  <h2>Ready to Explore?</h2>
+
+  <p>
+    Check the offer now and review the official
+    eligibility and participation information.
+  </p>
+
+  <a
+    class="cta"
+    href="https://app.trcefy.com/click?pid=2&offer_id=24647&sub2=u809050&sub5=s1SUBID1HERE"
+    target="_blank"
+    rel="noopener noreferrer">
+    Check the Offer →
+  </a>
+
+</section>
+
+<section class="faq">
+
+  <div class="container">
+
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <div class="faq-box">
+
+      <details>
+        <summary>What is Prizezappy?</summary>
+        <p>
+          Prizezappy is the name associated with this promotional
+          offer featuring a chance to win a $50,000 prize.
+        </p>
+      </details>
+
+      <details>
+        <summary>How can I check my eligibility?</summary>
+        <p>
+          Click one of the buttons on this page and review the
+          official offer page for eligibility and participation details.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is everyone guaranteed to win?</summary>
+        <p>
+          No. A prize opportunity does not mean a guaranteed win.
+          Eligibility, participation and prize rules are determined
+          by the official offer terms.
+        </p>
+      </details>
+
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p>
+    This page is for promotional purposes only and is not the official
+    Prizezappy website.
+  </p>
+
+  <p style="margin-top:8px;">
+    Please review the official offer terms, eligibility requirements
+    and privacy information before participating.
+  </p>
+</footer>
+
+</body>
+</html>
